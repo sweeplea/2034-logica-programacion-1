@@ -1,0 +1,26 @@
+// Muestra una alerta con un mensaje de bienvenida
+alert("¡Bienvenida y bienvenido a nuestro sitio web!");
+
+// Declaración de variables
+var nombre = "Lua";
+var edad = 25;
+var numeroDeVentas = 50;
+var saldoDisponible = 1000;
+
+// Muestra una alerta con un mensaje de error
+alert("¡Error! Completa todos los campos");
+
+// Declaración de una variable con mensaje de error y muestra su valor en una alerta
+var mensajeDeError = "¡Error! Completa todos los campos";
+alert(mensajeDeError);
+
+// Utiliza un prompt para preguntar el nombre del usuario
+nombre = prompt("¿Cuál es tu nombre?");
+
+// Pide al usuario que ingrese su edad
+edad = parseInt(prompt("¿Cuál es tu edad?"));
+
+// Verifica si la edad es mayor o igual a 18 y muestra un mensaje
+if (edad >= 18) {
+    alert("¡Puedes obtener tu licencia de conducir!");
+}
